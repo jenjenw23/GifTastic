@@ -38,7 +38,7 @@ buildButtons();
 
               var rating = results[i].rating;
 
-              var p = $("<p class='caps'>").text("Rating: " + rating);
+              var p = $("<p>").html("Rating: " + "<span class='caps'>" + rating + "</span>");
 
               var showImage = $("<img>");
 
